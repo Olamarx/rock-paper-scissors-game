@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    </head>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="body">
+        <!--Title -->
+        <div class="title">Rock Paper Scissor Game</div>
+          <!--Display Score of player and computer -->
+        <div class="score">  
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count count">0</p>
+            </div>       
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count count">0</p>
+            </div>
+        </div>
+        <div class="move">Choose your move</div>
+          <!--Number of moves left before game ends -->
+        <div class="movesleft">Moves Left: 10 </div>
+          <!--Options available to player to play game -->
+        <div class="options">
+            <form action="">
+                <label for="game">Type the one you are playing?</label><br>
+                <input class="player-selection" type="text" id="player" name="player">
+                <button type="submit" class="button">Play</button>
+            </form>
+            <!-- <button class="rock">Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissor">Scissors</button>     -->
+        </div>
+
+          <!--Final result of game -->
+        <div class="result"></div>
+          <!--Reload the game -->
+        <button class="reload"></button>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
